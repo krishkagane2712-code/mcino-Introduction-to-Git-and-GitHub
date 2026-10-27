@@ -1,0 +1,5 @@
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13023 | jq -r '"PR: " + .html_url, "State: " + .state, "Source repository: " + .head.repo.full_name, "Source branch: " + .head.ref'
+PR: https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/13023
+State: open
+Source repository: krishkagane2712-code/mcino-Introduction-to-Git-and-GitHub
+Source branch: bug-fix-revert
